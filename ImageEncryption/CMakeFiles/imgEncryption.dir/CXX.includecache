@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaozhou/Documents/cuda/imageEncryption/sha256.cpp
+stdlib.h
+-
+memory.h
+-
+sha256.h
+/home/xiaozhou/Documents/cuda/imageEncryption/sha256.h
+
+/home/xiaozhou/Documents/cuda/imageEncryption/sha256.h
+stddef.h
+-
+

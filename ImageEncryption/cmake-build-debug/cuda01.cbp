@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cuda01"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib64\;CMake Files\..\..\..\..\..\usr\local\lib64\cmake\;CMake Files\..\..\..\..\..\usr\local\lib64\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgEncryption">
+				<Option output="/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/imgEncryption" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 imgEncryption"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgEncryption/fast">
+				<Option output="/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/imgEncryption" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 imgEncryption/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/xiaozhou/Documents/cuda/imageEncryption/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/xiaozhou/Documents/cuda/imageEncryption/analysis.cu">
+			<Option target="imgEncryption"/>
+		</Unit>
+		<Unit filename="/home/xiaozhou/Documents/cuda/imageEncryption/chaos.cu">
+			<Option target="imgEncryption"/>
+		</Unit>
+		<Unit filename="/home/xiaozhou/Documents/cuda/imageEncryption/compute.cu">
+			<Option target="imgEncryption"/>
+		</Unit>
+		<Unit filename="/home/xiaozhou/Documents/cuda/imageEncryption/dna.cu">
+			<Option target="imgEncryption"/>
+		</Unit>
+		<Unit filename="/home/xiaozhou/Documents/cuda/imageEncryption/initkey.cu">
+			<Option target="imgEncryption"/>
+		</Unit>
+		<Unit filename="/home/xiaozhou/Documents/cuda/imageEncryption/main.cu">
+			<Option target="imgEncryption"/>
+		</Unit>
+		<Unit filename="/home/xiaozhou/Documents/cuda/imageEncryption/mykernel.cu">
+			<Option target="imgEncryption"/>
+		</Unit>
+		<Unit filename="/home/xiaozhou/Documents/cuda/imageEncryption/sha256.cpp">
+			<Option target="imgEncryption"/>
+		</Unit>
+		<Unit filename="/home/xiaozhou/Documents/cuda/imageEncryption/sha256.h">
+			<Option target="imgEncryption"/>
+		</Unit>
+		<Unit filename="/home/xiaozhou/Documents/cuda/imageEncryption/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/xiaozhou/Documents/cuda/imageEncryption/../../../../../usr/local/lib64/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib64\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/xiaozhou/Documents/cuda/imageEncryption/../../../../../usr/local/lib64/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib64\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/xiaozhou/Documents/cuda/imageEncryption/../../../../../usr/local/lib64/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib64\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/xiaozhou/Documents/cuda/imageEncryption/../../../../../usr/local/lib64/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib64\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
